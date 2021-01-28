@@ -18,10 +18,12 @@ with that wheels in that the paddles moves along the wheel, so in tight turns (a
     2. [Reinforcements](#reinforcements)
     3. [Lever](#lever)
     4. [Lever adapter](#lever-adapter)
-    5. [Cap](#cap)
-    6. [Base plate](#base-plate)
-    7. [Rear Cap](#rear-cap)
-    8. [Cable box](#cable-box)
+    5. [Alternate Lever](#alternate-lever)
+    6. [Cap](#cap)
+    7. [Base plate](#base-plate)
+    8. [Rear Cap](#rear-cap)
+    9. [Alternate Rear Cap](#alternate-rear-cap)
+   10. [Cable box](#cable-box)
     
 3. [Mounting](#mounting)    
 4. [Fanatec Protocol](#protocol)
@@ -94,12 +96,21 @@ custom pladdle and fit directly into the lever. In the back, there's a small rec
 <img src="images/cad/lever.png" height="400px">
 </a>
 
+
 ### Lever Adapter
 
 The lever adapter for the CSL BMW Motosport paddle shifters.
 
 <a href="stl/lever-adapter.stl">
 <img src="images/cad/lever-adapter.png" height="400px">
+</a>
+
+### Alternate Lever
+
+This lever has the paddle integrated, and it's a little longer
+
+<a href="stl/lever_alternate.stl">
+<img src="images/cad/lever_alternate.png" height="400px">
 </a>
 
 ### Cap
@@ -127,6 +138,17 @@ screws. It's better using a low profile micro switch to save space and make a re
 <a href="stl/rearcap.stl">
 <img src="images/cad/rearcap.png" height="400px">
 </a>
+
+### Alternate Rear Cap
+
+A simple cap for hidding the switches. If you use standard switches with the GT2, the rear cap collides with the wheel's 
+screws. It's better using a low profile micro switch to save space and make a rear cap thinner (TODO). this cap is shorter
+and fits better with the BMW GT2 wheel. 
+
+<a href="stl/rearcap_alternate.stl">
+<img src="images/cad/rearcap_alternate.png" height="400px">
+</a>
+
 
 ### Cable Box
 
