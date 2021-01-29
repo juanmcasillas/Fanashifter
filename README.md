@@ -6,6 +6,11 @@ In this example, we can connect directly our shifter levers to port Shifter2 (rj
 
 <img src="images/img/mount.jpg" height="400px">
 
+<img src="images/cad/lever_group.png" height="400px">
+
+<img src="images/cad/full_assembly.png" height="400px">
+
+
 The problem is simple: interface the wheel base so we can send two signals, gear up, and gear down. Fanatec sells static paddles, 
 a fully H-patter shifter, and also a sequential shifter. Some wheels include the shifters, also (as my BMW GT2 wheel). The problem
 with that wheels in that the paddles moves along the wheel, so in tight turns (aka rally) you can't reach the paddles.
@@ -67,6 +72,11 @@ with BQ PETG. These are the CURA settings for all the parts printed:
 
 Note that all the parts are sturdy and the print time is about 3 hours for the plate. Let the printed print. Check
 that the nozzle in clean (run small batches) because the PETG is very sticky and stringy.
+
+
+<div id="videoDiv">
+    <video id="video" src="/video/assembly.mp4" width="100%" controls>
+</div>
 
 ### Plate
 
