@@ -73,11 +73,8 @@ with BQ PETG. These are the CURA settings for all the parts printed:
 Note that all the parts are sturdy and the print time is about 3 hours for the plate. Let the printed print. Check
 that the nozzle in clean (run small batches) because the PETG is very sticky and stringy.
 
-
-<video id="video" width="100%" controls>
-  <source src="video/assembly.mp4"
-            type="video/mp4">
-</video>
+<video id="video" width="100%" controls src="video/assembly.webm" type="video/webm">
+  
 
 ### Plate
 
