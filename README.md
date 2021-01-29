@@ -74,9 +74,10 @@ Note that all the parts are sturdy and the print time is about 3 hours for the p
 that the nozzle in clean (run small batches) because the PETG is very sticky and stringy.
 
 
-<div id="videoDiv">
-    <video id="video" src="/video/assembly.mp4" width="100%" controls>
-</div>
+<video id="video" width="100%" controls>
+  <source src="video/assembly.mp4"
+            type="video/mp4">
+</video>
 
 ### Plate
 
