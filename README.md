@@ -24,11 +24,12 @@ with that wheels in that the paddles moves along the wheel, so in tight turns (a
     3. [Lever](#lever)
     4. [Lever adapter](#lever-adapter)
     5. [Alternate Lever](#alternate-lever)
-    6. [Cap](#cap)
-    7. [Base plate](#base-plate)
-    8. [Rear Cap](#rear-cap)
-    9. [Alternate Rear Cap](#alternate-rear-cap)
-   10. [Cable box](#cable-box)
+    7. [Big Lever](#big-lever)
+    8. [Cap](#cap)
+    9. [Base plate](#base-plate)
+   10. [Rear Cap](#rear-cap)
+   11. [Alternate Rear Cap](#alternate-rear-cap)
+   12. [Cable box](#cable-box)
     
 3. [Mounting](#mounting)    
 4. [Fanatec Protocol](#protocol)
@@ -118,6 +119,15 @@ This lever has the paddle integrated, and it's a little longer
 
 <a href="stl/lever_alternate.stl">
 <img src="images/cad/lever_alternate.png" height="400px">
+</a>
+
+### Big Lever
+
+This add in increases the lever surface, doing the shifting easier. Just print, and glue with the alternate lever.
+
+<a href="stl/big_lever.stl">
+<img src="images/cad/big_lever.png" height="400px">
+<img src="images/cad/big_lever_assembly.png" height="400px">
 </a>
 
 ### Cap
