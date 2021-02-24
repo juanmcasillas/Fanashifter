@@ -271,11 +271,11 @@ SCHEMA
   |                         
   |                                 
   +---------[ 10K ]---+-------/ ----------+
-  |                   | (5) X             | 
+  |                   | (4) X             | 
   |                   x                   x (1) GND
   |                                       |         
   +---------[ 10K ]---+------/ -----------+
-  |                   | (6) Y               
+  |                   | (5) Y               
   |                   x
   |  
   +------x (3) 
@@ -284,6 +284,8 @@ SCHEMA
   |
 
   ```
+
+<img src="images/schema/wiring.png">
 
 To implement it, I use some custom-made board (TODO: create a simple PCB). I add some connectors to fix the cables (to allow some mounting / unmounting)
 capabilities:
@@ -297,6 +299,17 @@ capabilities:
 * Connect the RJ12 to the **SHIFTER2** port in CSL (I have a H-pattern connected to the **SHIFTER1** port), start the wheel, and test with the Fanatec Device page that the switches works.
 
 I protect the boards' soldered layer using hot glue. Then, I put it into the cablebox and ziptie it to the rig.
+
+From RaceDepartment, user [mechsicko](https://www.racedepartment.com/members/mechsicko.804157/) suggest a simple wiring, tested and fully working.
+
+> Did a quick test before some racing tonight. The 3 wires on their own works for buttons. To test I just shorted the pull/push signal 
+> wires to ground (same thing a normally-open switch does) using Fanatec/windows > game controller to test.
+> Behaves same as my Fanatec shifter in seq mode. The advantage of doing it the way you did is you could use yours in port 1 but for port 2 it's already 
+> done internally. The Vcc pin still had 3.3v but I didn't need > jump the other pins or bridge them to the Vcc.
+>
+> tl:dr: simple 3 wire scheme is fine for shifter2 ^_^
+
+<img src="images/schema/simple_wiring.png" width="400px">
 
 You're done. Enjoy it.
 
