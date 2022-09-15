@@ -34,7 +34,7 @@ with that wheels in that the paddles moves along the wheel, so in tight turns (a
 3. [Mounting](#mounting)    
 4. [Fanatec Protocol](#protocol)
 5. [Pinout](#pinout)
-
+6. [H-Shifter project](#h-shifter)
 
 ## Project Features
 
@@ -175,6 +175,8 @@ A simple box to hide the board and the cables.
 <img src="images/cad/cablebox.png" height="400px">
 </a>
 
+
+
 ## Mounting
 
 See the following video to see how to mount the parts together.
@@ -313,4 +315,24 @@ From RaceDepartment, user [mechsicko](https://www.racedepartment.com/members/mec
 
 You're done. Enjoy it.
 
+
+## H Shifter 
+
+[StuyoDGr8](https://www.racedepartment.com/members/stuyodgr8.1687625/) has found a very clever solution to create an H-Shifter implmentation, and plug it directly to
+the fanatec base, as we can read in [RaceDepartment Post](https://www.racedepartment.com/threads/fanatec-static-paddles-diy.197643/post-3590917). After some talking 
+about tech details **StuyoDgr8** comes with the [following solution](https://www.racedepartment.com/threads/fanatec-static-paddles-diy.197643/post-3591694) after
+reading [this doc](https://www.gtplanet.net/forum/attachments/conversion-of-a-logitech-shifter-for-fanatec-wheelbase-compatibility-by-b-spec-_-bob-dec-2018-pdf.787424/):
+
+>
+> The idea is to use a PIC microcontroller (PIC16F690 in particular). It has low voltage requirements - 
+> can be powered with 2-5V, should be OK driven by the 3.3V on base. Code should be simple enough, in default 
+> it should keep mid-axis and Y resistors powered up and switch between X/Y combinations when button is activated.
+> I put only one pullup resistor as we are using only one button at a time, should be fine.
+>
+
+<img src="images/img/hshifter/FanaShifterResistors.jpg" width="600px">
+
+<img src="images/img/hshifter/PIC-Shifter.png" width="400px">
+
+I stay tuned on his advances !
 
