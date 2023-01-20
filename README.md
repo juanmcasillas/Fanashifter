@@ -339,6 +339,6 @@ I stay tuned on his advances !
 
 ## Pedals
 
-(Marek Towarek)[https://github.com/HighPriest] send me a comment with very valuable info about connecting pedals to a CSL base. You can (read the comment here)[https://github.com/juanmcasillas/Fanashifter/issues/1]
+[Marek Towarek](https://github.com/HighPriest) send me a comment with very valuable info about connecting pedals to a CSL base. You can [read the comment here](https://github.com/juanmcasillas/Fanashifter/issues/1)
 
 
