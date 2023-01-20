@@ -35,6 +35,7 @@ with that wheels in that the paddles moves along the wheel, so in tight turns (a
 4. [Fanatec Protocol](#protocol)
 5. [Pinout](#pinout)
 6. [H-Shifter project](#h-shifter)
+7. [Pedals](#pedals)
 
 ## Project Features
 
