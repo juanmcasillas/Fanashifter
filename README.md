@@ -341,4 +341,6 @@ I stay tuned on his advances !
 
 [Marek Towarek](https://github.com/HighPriest) send me a comment with very valuable info about connecting pedals to a CSL base. You can [read the comment here](https://github.com/juanmcasillas/Fanashifter/issues/1)
 
+The [Universal* Shifter Interface for Fanatec Wheelbase](https://www.diy-sim.com/guides/projects/item/universal-fanatec-shifter-interface) is a DIY project aiming to interface custom shifters using the fanatec base, with lots of info. Check it out also.
+
 
